@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    font-family: "Arima", system-ui;
+}
+
+.main-header ul{
+    display: flex;
+    
+}
+
+li{
+    margin-left: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+    
+h1{
+    font-size: 50px;
+}
+
+.box-image img{
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.box-image :hover{
+    transform: scale(1.2);
+
+}
